@@ -1,4 +1,4 @@
-import 'package:DevQuiz/home/widgets/appbar_widget.dart';
+import 'package:DevQuiz/home/widgets/appbar/appbar_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
