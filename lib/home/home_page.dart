@@ -19,6 +19,7 @@ class HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal:20,vertical:16),
             child: Column(
+            
               children: [
           
                   Row(
@@ -34,7 +35,7 @@ class HomePageState extends State<HomePage> {
                 Expanded(
                                 child: GridView.count(
                                   crossAxisCount:2,
-                                  crossAxisSpacing: 8,
+                                  crossAxisSpacing: 16,
                                   mainAxisSpacing: 16,
                     children: [
                   QuizCardWidget(),
